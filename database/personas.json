@@ -1,0 +1,31 @@
+{
+    "personas": [
+        {
+            "id": 1,
+            "nombre": "Carlos",
+            "apellido": "Soto",
+            "email": "carlitos@gmail.com"
+        },
+        {
+            "id": 2,
+            "nombre": "Pedro",
+            "apellido": "Soto",
+            "email": "pedro2000@gmail.com"
+        },
+        {
+            "id": "aeffe0",
+            "nombre": "Marta",
+            "email": "marta@gmail.com"
+        },
+        {
+            "id": "01954e",
+            "nombre": "José",
+            "email": "jose@gmail.com"
+        },
+        {
+            "id": "146c69",
+            "nombre": "Carla",
+            "email": "carla@gmail.com"
+        }
+    ]
+}
