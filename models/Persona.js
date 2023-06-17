@@ -26,10 +26,27 @@ class Persona {
                 let persona = {
                     id: this.id,
                     nombre: this.nombre,
-                    apellido: this.appelido,
+                    apellido: this.apellido,
                     email: this.email,
                 };
                 let respuesta = await op.agregarPersona(persona);
+                resolve(respuesta);
+            } catch (error) {
+                reject(error);
+            }
+        });
+    }
+
+    update() {
+        return new Promise(async (resolve, reject) => {
+            try {
+                let persona = {
+                    id: this.id,
+                    nombre: this.nombre,
+                    apellido: this.apellido,
+                    email: this.email,
+                };
+                let respuesta = await op.actualizarPersona(persona);
                 resolve(respuesta);
             } catch (error) {
                 reject(error);

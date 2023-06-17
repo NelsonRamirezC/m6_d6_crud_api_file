@@ -2,9 +2,9 @@
     "personas": [
         {
             "id": 1,
-            "nombre": "Carlos",
+            "nombre": "Juan",
             "apellido": "Soto",
-            "email": "carlitos@gmail.com"
+            "email": "juanito_soto@gmail.com"
         },
         {
             "id": 2,
@@ -13,18 +13,9 @@
             "email": "pedro2000@gmail.com"
         },
         {
-            "id": "aeffe0",
-            "nombre": "Marta",
-            "email": "marta@gmail.com"
-        },
-        {
-            "id": "01954e",
-            "nombre": "José",
-            "email": "jose@gmail.com"
-        },
-        {
-            "id": "146c69",
+            "id": "fe05b0",
             "nombre": "Carla",
+            "apellido": "Romero",
             "email": "carla@gmail.com"
         }
     ]

@@ -38,6 +38,7 @@ const agregarPersona = (persona) => {
 const actualizarPersona = (personaModificada) => {
     return new Promise(async (resolve, reject) => {
         try {
+            console.log("Persona modificada", personaModificada);
             let data = await leerPersonas();
             let personaEncontrada = data.personas.find(
                 (persona) => persona.id == personaModificada.id
@@ -53,7 +54,7 @@ const actualizarPersona = (personaModificada) => {
                     `Persona ${personaModificada.nombre} ha sido actualizada con éxito.`
                 );
             } else {
-                reject("Persona no puede encontrada.");
+                reject("Persona no fue encontrada.");
             }
         } catch (error) {
             console.log(error);
